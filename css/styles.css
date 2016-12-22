@@ -1,1 +1,14 @@
 
+/* VARIABLES */
+/* COLORS */
+/* FONTS */
+/* MIXINS */
+/* MISC */
+.col-left {
+  background-color: #ffffff;
+  color: #1a2d33;
+}
+.col-right {
+  background-color: #eceeed;
+  color: #666666;
+}
