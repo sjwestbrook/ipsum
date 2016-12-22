@@ -12,7 +12,9 @@
   margin: 0;
 }
 .container {
-  background-image: url(images/futurama-bg.jpg);
+  background: url(images/futurama-bg.jpg) bottom center no-repeat;
+  background-size: cover;
+  background-color: red;
   padding: 5%;
 }
 .col-left {
