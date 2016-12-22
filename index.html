@@ -1,12 +1,16 @@
-<div class="container">
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fillerama: A filler text generator</title>
+  </head>
   
-  <div class="col-left">
-    <div ui-view></div> <!-- display ipsum here -->
-  </div> <!-- end col-left-->
-  
-  <div class="col-right">
-    <h2>Generate Ipsum</h2>
-    <p>Insert Filter Here</p>
-  </div> <!-- end col-right-->
+  <body>
+    <div ng-include='"templates/header.html"'></div>
     
-</div>
+    <div ng-view></div>
+    
+    <script src="js/app.js"></script>
+    <script src="js/ipsumController.js"></script>
+  </body>  
+  
+</html>
