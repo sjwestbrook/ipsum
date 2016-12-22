@@ -5,12 +5,19 @@
 /* MISC */
 .header {
   background-color: #149377;
+  padding: 3%;
+}
+.container {
+  background-image: url(images/futurama-bg.jpg);
+  padding: 5%;
 }
 .col-left {
   background-color: #ffffff;
   color: #1a2d33;
+  padding-right: 5%;
 }
 .col-right {
   background-color: #eceeed;
   color: #666666;
+  padding-left: 5%;
 }
