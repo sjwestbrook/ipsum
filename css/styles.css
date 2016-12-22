@@ -6,6 +6,7 @@
 .header {
   background-color: #149377;
   padding: 3%;
+  margin: 0;
 }
 .container {
   background-image: url(images/futurama-bg.jpg);
