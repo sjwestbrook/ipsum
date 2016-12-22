@@ -1,9 +1,11 @@
-
 /* VARIABLES */
 /* COLORS */
 /* FONTS */
 /* MIXINS */
 /* MISC */
+.header {
+  background-color: #149377;
+}
 .col-left {
   background-color: #ffffff;
   color: #1a2d33;
