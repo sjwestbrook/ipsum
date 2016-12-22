@@ -5,17 +5,8 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/home');
     
     $stateProvider
-        
-        // HOME STATE ========================================
-        .state('home', {
-            url: '/home',
-            templateUrl: './partials/home.html'
-        })
-        
-     
-      
-    
-        // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
+            
+        // HOME PAGE AND NESTED NAMED VIEWS =================================
         .state('home', {
             url: '/home',
             views: {
