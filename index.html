@@ -12,7 +12,16 @@
       <img src="../images/logo,png" alt="fillerama" />
     </div>
     
-    <div ng-view></div>
+    <div class="container">  
+      <div class="col-left">
+        <div ui-view="columnLeft"></div> <!-- display ipsum here -->
+      </div> <!-- end col-left-->   
+
+      <div class="col-right">
+        <h2>Generate Ipsum</h2>
+        <p>Insert Filter Haere</p>
+      </div> <!-- end col-right-->    
+    </div> <!-- end container -->
     
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js"></script>
