@@ -8,10 +8,17 @@ routerApp.controller('ipsumController', function($scope) {
         },
         
         {
-            name: 'Pam Taylor',
-            title: 'Employment Coordinator - WIOA',
-            phone: '608-386-1629',
-            email: 'taylorp@workforceconnections.org'
+            sentence: "Stop bickering or I'm going to come back there and change your opinions manually!"
+        },
+        {
+            sentence: "We don't have a brig."
+        },
+        {
+            sentence: "Dear God, they'll be killed on our doorstep!"
+        },
+        { 
+            sentence: "And there's no trash pickup until January 3rd."
         }
+        
     ];    
 });
