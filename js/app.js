@@ -7,8 +7,8 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
     $stateProvider
             
     // HOME PAGE AND NESTED NAMED VIEWS =================================
-    .state('ipsum', {
-        url: '/ipsum',
+    .state('index', {
+        url: '/index',
         'columnLeft@ipsum': { 
             templateUrl: './partials/ipsum.html',
             controller: 'ipsumController'
