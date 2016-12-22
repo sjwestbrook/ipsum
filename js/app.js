@@ -11,7 +11,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             url: '/home',
             views: {
                 '': { templateUrl: './partials/home.html' },
-                'columnRight@home': { template: 'Look I am a column!' },
+//                 'columnRight@home': { template: 'Look I am a column!' },
                 'columnLeft@home': { 
                     templateUrl: './partials/ipsum.html',
                     controller: 'ipsumController'
