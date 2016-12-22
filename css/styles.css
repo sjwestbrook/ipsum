@@ -3,6 +3,9 @@
 /* FONTS */
 /* MIXINS */
 /* MISC */
+* {
+  outline: 1px dotted red;
+}
 .header {
   background-color: #149377;
   padding: 3%;
@@ -16,9 +19,11 @@
   background-color: #ffffff;
   color: #1a2d33;
   padding-right: 5%;
+  width: 50%;
 }
 .col-right {
   background-color: #eceeed;
   color: #666666;
   padding-left: 5%;
+  width: 50%;
 }
